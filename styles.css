@@ -6,6 +6,7 @@ body {
 
 p{
 
+  color: #ffffff;
   font-size: 13px;
   font-weight: 300;
   font-family: "Merriweather Sans"
@@ -23,7 +24,7 @@ li{
 
 h1 {
   color: #e6edf3;
-  font-size: 16px ;
+  font-size: 21px ;
   font-weight: 400 ;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -112,13 +113,14 @@ hr {
 .hname {
   font-size: 31px;
   font-weight: 600;
+  color: #f0f9ff;
 }
 
 
 
 
 
-  @media (min-width: 500px) {
+  @media (min-width: 300px) {
     .media {
       display: grid;
       grid-template-columns: fit-content(200px) 1fr;
@@ -129,6 +131,7 @@ hr {
       grid-gap: 20px;
       position: relative;
       width: auto;
+      flex-wrap: wrap;
       box-sizing: border-box;
       flex-direction: row;
       /* margin-bottom: 4rem;
@@ -190,10 +193,10 @@ hr {
 
 
   .circular--landscape { 
-    display: inline-block; 
+    display: flex; 
     position: relative; 
-    width: 300px; 
-    height: 300px; 
+    width: 400px; 
+    height: 400px; 
     overflow: hidden; 
     border-radius: 50%;
   } 
@@ -228,6 +231,8 @@ hr {
 
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 0px;
 
   }
 
@@ -291,23 +296,24 @@ hr {
   @media (max-width:991px) {
     .footer-dark .item.social {
       text-align:center;
-      margin-top:20px;
+      padding-bottom: 20px;
     }
   }
   
-  .footer-dark .item.social > a {
+  /* .footer-dark .item.social > ul > li > a {
     font-size:20px;
-    width:50px;
-    height:36px;
+    width:100px;
+    height:50px;
     line-height:36px;
-    display:inline-block;
+    display:flex;
+    flex-wrap: wrap;
     text-align:center;
     border-radius: 4px ;
     box-shadow:0 0 0 1px rgba(255,255,255,0.4);
     margin:0 8px;
     color:#fff;
     opacity:0.75;
-  }
+  } */
   
   /* .footer-dark .item.social > a:hover {
     opacity: 1 ;
@@ -328,20 +334,24 @@ hr {
     display: flex;
     width: 100;
     text-align: center;
-    gap: 20px;
+    align-items: center;
+    gap: 0px;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 13px;
-    padding: 10px 10px;
+    padding: 10px 10px 20px;
 }
 
 .social_links a {
-  border: 1px solid #6d6d6d;
+  border: none;
   border-radius: 6px;
   color: #ffffff;
+  width: 100px;
   text-decoration: none;
   display: flex;
+  align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
   flex-direction: row;
   font-size: 13px;
   padding: 10px 10px;
