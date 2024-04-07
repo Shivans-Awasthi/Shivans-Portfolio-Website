@@ -1,5 +1,6 @@
 body {
-  background-color: #121922;
+  background: rgb(4,4,14);
+  background: linear-gradient(128deg, rgba(4,4,14,1) 0%, rgba(20,3,33,1) 0%, rgba(2,2,32,1) 100%);
   font-family: "Merriweather", serif;
 }
 
@@ -40,7 +41,7 @@ hr {
 }
 
 .solid-dark-button {
-  background-color: #010409;
+  background-color:transparent;
   color: #fff;
   border: none;
   padding: 10px 10px;
@@ -52,7 +53,7 @@ hr {
 }
 
 .solid-dark-button:hover {
-  background-color: #2c2d2e;
+  background-color: rgb(81, 81, 81);
   opacity: 1;
   text-decoration: none;
 }
@@ -82,7 +83,7 @@ hr {
 .footer-dark {
   padding: 50px 0;
   color: #f0f9ff;
-  background-color: #010409;
+  background-color:transparent;
 }
 
 .footer-dark h3 {
