@@ -15,6 +15,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
 
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "WeIp44vGwwzstkfCg",
+      });
+   })();
+</script>
+
 
 </head>
 
@@ -65,7 +76,7 @@
   </div>
   <div class="col-sm-12 col-md-6" style="padding: 50px 20px 20px 30px">
     <div class="content">
-      <h1 class="display-4">I am <span class="badge badge-secondary">Shivans Awasthi</span></h1><br><br><p class="lead"> A &nbsp<span  class="typewrite" data-period="2000" data-type='[ "Programmer", "Software Engineer", "Full Stack Web Developer", "Robotics Engineer" ]'></span></p>
+      <h1 class="display-4">I am <span class="badge badge-dark">Shivans Awasthi</span></h1><br><br><p class="lead"> A &nbsp<span  class="typewrite" data-period="2000" data-type='[ "Programmer", "Software Engineer", "Full Stack Web Developer", "Robotics Engineer" ]'></span></p>
   </div>
 
   <div class="row">
@@ -88,7 +99,10 @@
 
 
 <section id="about">
+  <div class="container">
 
+    <div class="row">
+    <div class="col-sm-12 col-md-12">
   <div class="jumbotron" style="background-color:transparent ;">
     <h1 class="display-5">Hello, world! Welcome to my portfolio</h1>
     <p class="lead" style="font-size: medium;">Welcome to my portfolio! I'm Shivans Awasthi, a passionate and driven Computer Science and Systems Engineering graduate from Kalinga Institute of Industrial Technology. With a solid foundation in various programming languages and a knack for problem-solving, I've delved into a spectrum of projects and experiences that span from home automation to advanced robotics and AI.</p>
@@ -97,7 +111,9 @@
     <p class="lead">
       <a class="btn btn-info btn-lg" href="#" role="button">Dive in</a>
     </p>
-
+</div>
+</div>
+</div>
   </div>
 
 </section>
@@ -125,8 +141,8 @@
 </div>
 
 
-<div class="col-sm-12 col-md-6" style="background-color:transparent; font-family: Merriweather Sans ;">
-  <ul class="list-group" >
+<div class="col-sm-12 col-md-6" style="background-color:transparent; font-family: Merriweather Sans ; ">
+  <ul class="list-group border-secondary" style="border: solid white 1px;">
     <li class="list-group-item" style="background-color:#010409; color:#ffffff; font-size:large;">Technical Skills</li>
     <li class="list-group-item bg-dark" style="color:#ffffff; font-size:large;" ><ion-icon name="code-slash"></ion-icon>  C, C++, Python<div class="progress">
       <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%" ></div>
@@ -156,14 +172,14 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-12 col-md-6" >
+    <div class="col-sm-12 col-md-6"  >
       <div class="jumbotron " style="background-color:transparent;">
         <h1 class="display-4">My Education</h1>
         <p class="lead" style="font-size: medium;"></p>
       </div>
     </div>
     <div class="col-sm-12 col-md-3 " style=" font-family: Merriweather Sans ;">
-      <div class="card border-secondary mb-3 "  style="max-width: 100%; border:none; color: #ffffff ; background-color:#010409;">
+      <div class="card border-secondary mb-3 "  style="max-width: 100%; border: solid white 1px; color: #ffffff ; background-color:#010409;" >
         <div class="card-header">B.Tech Computer Science and System Engineering</div>
         <div class="card-body text-success bg-dark" >
           <h5 class="card-title" style="color:#ffffff; opacity:0.5">Kalinga Institute of Industrial Technology(KIIT), Bhubaneshwar, Odisha, India</h5>
@@ -173,7 +189,7 @@
   </div>
   
   <div class="col-sm-12 col-md-3" style=" font-family: Merriweather Sans ;">
-    <div class="card border-secondary mb-3"  style="max-width: 100%; border:none;color: #ffffff ; background-color:#010409;">
+    <div class="card border-secondary mb-3"  style="max-width: 100%; border: solid white 1px;color: #ffffff ; background-color:#010409;">
       <div class="card-header">Class XII- Higher Secondary Education(CBSE)</div>
       <div class="card-body text-success bg-dark"  >
         <h5 class="card-title" style="color:#ffffff; opacity:0.5">Kendriya Vidyalaya No.1,<br>Mumbai,<br>Maharashtra,<br> India</h5>
@@ -201,8 +217,8 @@
 
     <div class="row">
       <div class="col-sm-12 col-md-12" style="padding: 20px 20px 10px 20px;">
-  <div class="card-deck" style="font-family: Merriweather Sans ; color:dodgerblue;">
-    <div class="card" style="border:none ;  ">
+  <div class="card-deck " style="font-family: Merriweather Sans ; color:dodgerblue; ">
+    <div class="card border-secondary" style="border: solid white 1px;">
       <div class="card-body bg-dark">
         <h5 class="card-title"><ion-icon name="bookmark"></ion-icon> Shivans-Portfolio-Website</h5>
         <p class="card-text" >My Personal Website that showcases my skills and projects</p>
@@ -217,7 +233,7 @@
       </div>
       
     </div>
-    <div class="card"  style="border: none;"> 
+    <div class="card border-secondary" style="border: solid white 1px;">
       <div class="card-body bg-dark">
         <h5 class="card-title"><ion-icon name="bookmark"></ion-icon>ChatSummation-Text-Summarization-of-conversational-data-using-google-Pegasus-model</h5>
         <p class="card-text">A tool to summerize conversational data using google pagasus model trained on SamSum dataset</p>
@@ -235,7 +251,7 @@
     <div class="col-sm-12 col-md-12" style="padding: 10px 20px 20px 20px;" >
     <div class="card-deck" style="font-family: Merriweather Sans ; color:dodgerblue;">
 
-    <div class="card"  style="border: none;" >
+      <div class="card border-secondary" style="border: solid white 1px;">
       <div class="card-body bg-dark">
         <h5 class="card-title"><ion-icon name="bookmark"></ion-icon>College-Automation-using-IOT</h5>
         <p class="card-text">An automation system using ESP32, Wifi, sensors for automatic control of Electric Appliances, Implemented Facial Recognition Attendance system</p>
@@ -249,7 +265,7 @@
         <a href="https://github.com/Shivans-Awasthi/College-Automation-using-IOT" style="text-decoration: none; color:aliceblue"><ion-icon name="logo-github"></ion-icon><small class="text"> Open on Github</small></a>
       </div>
     </div>
-    <div class="card"  style="border: none;" >
+    <div class="card border-secondary" style="border: solid white 1px;">
 
       <div class="card-body bg-dark">
         <h5 class="card-title"><ion-icon name="bookmark"></ion-icon>Twitter-Sentiment-Analysis-using-TextBlob</h5>
@@ -304,15 +320,15 @@
                     <p>Email: shivansa30@gmail.com</p><br>
                     <p>Lets get started with a new Project!!  Drop me a message below</p><br>
 
-                    <form class="needs-validation" novalidate style="font-family: Merriweather Sans ;">
+                    <form id="contact-form" class="needs-validation" novalidate style="font-family: Merriweather Sans ;">
                       <div class="form-row">
                         <div class="col-md-6 mb-3" >
                           <label for="name">Name</label>
-                          <input type="text" class="form-control" style="background-color:transparent; color:#ffffff" id="nameInput" placeholder="What should I call you?" required>
-                          <div class="valid-feedback">
+                          <input type="text" class="form-control" style="background-color:transparent; color:#ffffff" name="from_name" id="from_name" placeholder="What should I call you?" required>
+                          <div class="valid-feedback" style="color: chartreuse;" >
                             Looks good!
                           </div>
-                          <div class="invalid-feedback">
+                          <div class="invalid-feedback" style="color: rgb(255, 0, 0);" >
                             Enter your name.
                           </div>
                         </div>
@@ -323,10 +339,13 @@
                               <div class="input-group-prepend">
                               <span class="input-group-text" id="inputGroupPrepend" style="background-color:#121922; color:#ffffff;"  >@</span>
                             </div>
-                            <input type="text" class="form-control" style="background-color:transparent; color:#ffffff" id="emailInput" placeholder="Enter your Email" aria-describedby="inputGroupPrepend" required>
-                            <div class="invalid-feedback">
+                            <input type="text" class="form-control" style="background-color:transparent; color:#ffffff" name="reply_to" id="reply_to" placeholder="Enter your Email" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback" style="color: rgb(255, 0, 0);">
                               Please Enter your email.
                             </div>  
+                            <div class="valid-feedback" style="color: chartreuse;" >
+                              Looks good!
+                            </div>
                           </div>
                             
                           </div>
@@ -335,17 +354,20 @@
                       <div class="form-row">
                         <div class="col-md-12 mb-3">
                           <label for="message">Your Message</label>
-                          <textarea class="form-control" style="background-color:transparent; color:#ffffff" id="messageTextA" placeholder="Let me Know your thoughts..." required rows="3" cols="10"></textarea>
-                          <div class="invalid-feedback">
+                          <textarea class="form-control" style="background-color:transparent; color:#ffffff" name="message" id="message" placeholder="Let me Know your thoughts..." required rows="3" cols="10"></textarea>
+                          <div class="invalid-feedback" style="color: rgb(255, 0, 0);">
                             Please provide a Message .
                           </div>
+                          <div class="valid-feedback" style="color: chartreuse;"  >
+                            Looks good!
+                          </div>
                         </div>
-                    
+                        <h3 style="color: chartreuse;" hidden id="success">Email Sent successfully!</h3>
                       </div>
                       <button class="btn btn-primary" type="submit" >Send</button>
                     </form>
                   
-
+                      
                 </div>               
               </div>
             <p class="copyright">Shivans Awasthi © 2024</p>
@@ -362,6 +384,7 @@
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 <script src="./script.js"></script>
+<script src="./contact.js"></script>
 
 
 
