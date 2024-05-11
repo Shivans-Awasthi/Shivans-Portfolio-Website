@@ -11,10 +11,7 @@ form.addEventListener('submit',(e) => {
       .then(function(response) {
         console.log('Email sent!', response.status, response.text);
         document.getElementById('success').removeAttribute('hidden') ;
-        document.getElementById('from_name').value = "" ;
-        document.getElementById('reply_to').value = "" ;
-        document.getElementById('message').value = "" ;
-        
+       
       }, function(error) {
         console.error('Error sending email:', error);
         alert('Oops! Something went wrong.');
